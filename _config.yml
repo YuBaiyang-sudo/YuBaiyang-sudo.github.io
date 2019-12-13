@@ -28,10 +28,10 @@ defaults:
 
 
 title: "宇百阳的Blog"
-email: sincerebravefight@gmail.com
+email: 923772781@qq.com
 description: ""
 github:
-  username: bit-ranger
+  username: 宇百阳的Blog
 swiftype:
   searchId: iXZyPokVfxFaBTvi64Y6
 gitment:
@@ -39,7 +39,7 @@ gitment:
     client_id: a6fb73b3e790e234bab8
     client_secret: cc10aaff53a03d05ab2ee002dbf401dd7627c7a3
 
-url: "https://bit-ranger.github.io/blog"
+url: "https://YuBaiyang-sudo.github.io"
 imgrepo: "https://bit-ranger.github.io/blog/static/img"
 
 
