@@ -17,7 +17,7 @@ categories: algorithm
 >> mkdir git_test	创建	git_test	目录
 
 # Git使用
-1.在	git_test	目录下创建一个文件	code.txt	
+1. 在	git_test	目录下创建一个文件	code.txt	
 		向目录中添加内容	vi	code.txt         (  :wq  保存修改并退出 vi )
 
 --------
@@ -34,17 +34,17 @@ categories: algorithm
 		放弃所有文件修改，但不退出 vi ，即回退到文件打开后最后一次保存操作的状态，继续进行文件操作：按下 "ESC" 键进入命令模式，键入 ":e!" ，回车后回到命令模式
 --------
 
-2.使用如下两条命令可以创建一个版本
+2. 使用如下两条命令可以创建一个版本
 		git	add   code.txt
 		git	commit 	 -m  ‘版本1’
-3.查看版本命令
+3. 查看版本命令
 		git   log
-4.版本回退(回到某一个版本)
+4. 版本回退(回到某一个版本)
 	HEAD^   回到上一个版本
 	HEAD^^  回到上两个版本
 	HEAD～n    n为想退回版本的次数
 		 git	reset   --hard  HEAD^ 
-5.查看之前操作记录
+5. 看之前操作记录
 		git	reflog	
 		git 	reset  --hard  版本序列号    （撤销暂存）
 
